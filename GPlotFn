@@ -1,0 +1,14 @@
+Ggplot visualisations
+Install ggplot by typing in the following code:
+install.packages("ggplot2")
+Once installed, you can activate the library using the following code:
+library(ggplot2)
+Now try this code (same as above only in ggplot):
+p <- ggplot(mtcars, aes(factor(am), mpg))
+p + geom_boxplot()
+Now add a jitter to show density:
+p <- ggplot(mtcars, aes(factor(am), mpg))
+p + geom_boxplot() + geom_jitter(width = 0.2)
+Add a third dimension – engine size (vs):
+p <- ggplot(mtcars, aes(factor(am), mpg))
+p + geom_boxplot(aes(colour = factor(vs)))
