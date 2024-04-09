@@ -1,0 +1,4 @@
+ages <- c(25,26,37,56,42,25)
+affill <- factor(c(“U”, “R”, “R”,”D”, “D”, “U”))
+tapply(ages, affill , mean)
+tapply(ages, affill , range)
