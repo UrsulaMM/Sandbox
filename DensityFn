@@ -1,0 +1,2 @@
+dens <- density(rundata$FirstRun)
+plot(dens)
