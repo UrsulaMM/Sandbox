@@ -1,0 +1,4 @@
+rundata$FirstRun
+mean(rundata$FirstRun)
+sd(rundata$FirstRun)
+summary(rundata$FirstRun)
