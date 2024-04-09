@@ -1,0 +1,6 @@
+The mean function with missing values:
+If you try the following code, you will notice that it does not work as expected:
+x <- c(1, 2, NA, 10, 3)
+mean(x)
+To work as expected you need to use the na.rm argument to remove NA values:
+mean(x, na.rm=TRUE)
