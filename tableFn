@@ -1,0 +1,2 @@
+x <- factor( c("yes", "yes", "no", "yes", "no") )
+table(x)
