@@ -1,0 +1,2 @@
+?hist
+hist(exams$First.Test, ylab="y-axis title", xlab=”xaxis title", main=“main title”)
