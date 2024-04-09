@@ -1,0 +1,18 @@
+ Handling missing values:
+Try the following code:
+x <- c(25,26,NA,56,42,25)
+is.na(x)
+is.nan(x)
+The function is.na(x) is used to test for NA and returns a logical vector.
+The function is.nan(x) is used to test for NaN and returns a logical vector.
+Try the following code:
+x <- c(1, 2, NA, 10, 3)
+is.na(x)
+Print out should be: [1] FALSE FALSE TRUE FALSE FALSE
+is.nan(x)
+Print out should be: [1] FALSE FALSE FALSE FALSE FALSE
+x <- c(1, 2, NaN, NA, 4)
+is.na(x)
+Print out should be: [1] FALSE FALSE TRUE TRUE FALSE
+is.nan(x)
+Print out should be: [1] FALSE FALSE TRUE FALSE FALSE
