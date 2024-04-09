@@ -1,0 +1,2 @@
+Shapiro-Wilk test of normality.
+shapiro.test(rundata$FirstRun)
