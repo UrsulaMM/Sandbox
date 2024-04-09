@@ -1,0 +1,7 @@
+Data cleansing of missing values:
+Try the following two approaches for cleansing missing values. The first approach
+sets all missing values to 0 and the second just inputs the mean average.
+x <- c(1, 2, NA, 10, 3)
+x[is.na(x)] <- 0
+x <- c(1, 2, NA, 10, 3)
+x[is.na(x)] <- mean(x)
